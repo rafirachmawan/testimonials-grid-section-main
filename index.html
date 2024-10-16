@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- link tailwind Css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { // Ganti 'color' menjadi 'colors'
+            moderateViolet: "hsl(263, 55%, 52%)",
+            darkGrayishBlue: "hsl(217, 19%, 35%)",
+            darkBlackishBlue: "hsl(219, 29%, 14%)", // Perbaiki typo dari 'darkBlackisBlue'
+            white: "hsl(0, 0%, 100%)",
+            lightGray: "hsl(0, 0%, 81%)",
+            lightGrayishBlue: "hsl(210, 46%, 95%)",
+          },
+          fontFamily: {
+            'barlow': ['"Barlow Semi Condensed"', 'sans-serif ']
+          }
+        },
+      },
+    };
+
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+
+<body class="bg-lightGrayishBlue sm: my-20 ">
+  <main class="min-h-screen flex items-center justify-center font-barlow">
+    <div
+      class="container mx-auto grid grid-cols-1 md:grid-cols-4 max-w-[1140px] min-h-[572px] gap-x-[30px] gap-y-[24px]">
+      <div
+        class="bg-moderateViolet rounded-lg shadow-xl min-h-[282px] md:col-span-2 flex flex-col gap-y-4 pt-[26px] pb-8 px-8 text-white">
+        <div class="flex">
+          <div>
+            <img src="" alt="">
+          </div>
+          <div>
+            <p>Daniel Clifford</p>
+            <p>Verifed Graduate</p>
+          </div>
+        </div>
+        <div>
+          <p>I recived a job offer mid-course, and then subjects i learned were current, if not more so, in the company
+            i joined. I honestly feel i got every penny's worth</p>
+        </div>
+        <div>
+          <p>"I was en EMT for many years before I joined the bootcamp. I've been looking to make a transition and have
+            heard some people who had am amazing experience here. I signed up for the tree intro course and found it
+            incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of
+            my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at
+            a VR startup." </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <img src="" alt="">
+          </div>
+          <div>
+            <p>Jonathan Walters</p>
+            <p>Verifed Graduate</p>
+          </div>
+        </div>
+        <div>
+          <p>The team was very supportive and kept me motivated</p>
+        </div>
+        <div>
+          <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big
+            company. This was one of the best investments I’ve made in myself. “</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  </div>
+</body>
+
+</html>
